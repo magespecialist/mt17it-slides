@@ -1,0 +1,20 @@
+...
+initialState = { isLoading: false, inError: false, products: [] };
+
+function reducer(state = initialState, action) {
+    switch (action.type) {
+        ...
+        case "PRODUCTS_LIST_PENDING": // Magic action type created by promise middleware
+            return { ...state, isLoading: true, inError: false };
+
+        case "PRODUCTS_LIST_FULFILLED": // Magic action type created by promise middleware
+            return { ...state, isLoading: false, products: action.payload.items };
+
+        case "PRODUCTS_LIST_REJECTED": // Magic action type created by promise middleware
+            return { ...state, isLoading: false, products: [], inError: true };
+        ...
+        default:
+            return state;
+    }
+}
+...

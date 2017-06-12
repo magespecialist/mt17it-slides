@@ -1,0 +1,71 @@
+#mt_logo {
+    position: absolute;
+    z-index: 1000;
+    left: 2vw;
+    bottom: 2vh;
+    width: 5vw;
+}
+
+.cit {
+    display: block;
+    text-align: right;
+    color: #666;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.spectacle-deck {
+    height: 92vh !important;
+}
+
+.solid-background {
+    background: rgba(224, 224, 224, .95);
+}
+
+.spectacle-content strong {
+    color: #d0007d;
+    font-weight: normal;
+}
+
+.spectacle-content p {
+    margin-bottom: 2vh !important;
+}
+
+.spectacle-content td {
+    padding: 2vw;
+    vertical-align: top;
+}
+
+.footer-bar {
+    height: 8vh;
+    line-height: 8vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background: #296891;
+    color: #fff;
+    font-size: 2vh;
+    padding: 0 2vw 0 9vw;
+    text-align: center;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+code {
+    font-size: 22px !important;
+}
+
+.small-code code {
+    font-size: 18px !important;
+}
+
+.small-code2 code {
+    font-size: 16px !important;
+}

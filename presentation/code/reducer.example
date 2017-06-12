@@ -1,0 +1,13 @@
+...
+function qtyReducer(state = initialState, action) {
+  switch (action.type) {
+    case INCREMENT_QTY:
+      return Object.assign({}, state, {
+        quantity: state.quantity + action.payload
+      });
+      ...
+    default:
+      return state;
+  }
+}
+...

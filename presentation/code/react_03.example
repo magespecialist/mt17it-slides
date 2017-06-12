@@ -1,0 +1,12 @@
+...
+class MyPage extends React.Component {
+    render() {
+        return (
+            <div>
+                <MyHeader />
+                <MyBody color="red" />
+            </div>
+        );
+    }
+}
+...

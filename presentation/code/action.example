@@ -1,0 +1,10 @@
+...
+function increaseQty(qty) {
+  store.dispatch({
+    type: INCREMENT_QTY,
+    payload: qty
+  });
+}
+...
+<button onClick={ increaseQty(1) }>click me</button>
+...

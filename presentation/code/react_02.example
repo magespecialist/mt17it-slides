@@ -1,0 +1,15 @@
+...
+class MyBody extends React.Component {
+    render() {
+        var style = {
+          color: this.props.color
+        };
+
+        return (
+            <div style={ style }>
+                <p>This is my awesome page body!</p>
+            </div>
+        );
+    }
+}
+...

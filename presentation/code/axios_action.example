@@ -1,0 +1,9 @@
+...
+function getProductsList()
+{
+    store.dispatch({
+        type: "PRODUCTS_LIST",
+        payload: axios.get("http://mymagento/rest/V1/products"),
+    });
+}
+...
